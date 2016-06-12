@@ -104,10 +104,7 @@ public class myView extends View {
 			
 			canvas.drawLine(cirCenter.x + x_pre, cirCenter.y - y_pre, cirCenter.x + x_cur, cirCenter.y - y_cur,paint);
 			canvas.drawLine(cirCenter.x - x_pre, cirCenter.y - y_pre, cirCenter.x - x_cur, cirCenter.y - y_cur,paint);
-//			MoveToEx(hdc, origin->x + x_pre, origin->y - y_pre, NULL);
-//			LineTo(hdc, origin->x + x_cur, origin->y - y_cur);
-//			MoveToEx(hdc, origin->x - x_pre, origin->y - y_pre, NULL);
-//			LineTo(hdc, origin->x - x_cur, origin->y - y_cur);
+			
 			x_pre = x_cur;
 			y_pre = y_cur;
 		}
