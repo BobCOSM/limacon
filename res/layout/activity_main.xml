@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.limacon.MainActivity" >
-    
-<!--     <TextView
+    <com.example.limacon.myView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	/>
+    <!-- 
+    <TextView
+        android:id="@+id/point_show"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/hello_world" /> -->
-        <com.example.limacon.myView 
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
-    
 </RelativeLayout>
